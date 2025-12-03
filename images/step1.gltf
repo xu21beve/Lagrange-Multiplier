@@ -1,0 +1,230 @@
+{
+	"asset": {
+		"generator": "SOLIDWORKSGLTF",
+		"version" : "2.0"
+	},
+"extensionsUsed": [ "KHR_lights_punctual", "Solidworks_custom_properties", "KHR_draco_mesh_compression"],
+"extensionsRequired": [ "KHR_draco_mesh_compression" ],
+	"scene" : 0,
+	"scenes": [
+		{
+			"name": "Default - <Default>_Display State 1",
+			"nodes": [
+				0, 1]
+		}
+	],
+	"nodes": [
+		{
+			"matrix": [
+				-0.554117,					0.0449333,					0.831225,					0,
+				0.336171,					0.925575,					0.174067,					0,
+				-0.76154,					0.375887,					-0.527982,					0,
+				-0.373771,					0.202609,					-0.269531,					1
+			]
+			,"camera": 0
+			,"name": "current"		}
+,
+		{
+			"mesh": 0
+			,"name": "Step1.SLDPRT"		}
+	],
+	"cameras": [
+		{
+			"type": "orthographic",
+			"orthographic" : {
+				"xmag": 1,
+				"ymag" : 1,
+				"zfar" : 100,
+				"znear" : 0.01
+			}
+		}
+	],
+	"meshes" : [
+		{
+			"primitives" : [
+				{
+					"attributes" : {
+					"POSITION" : 1,
+					"NORMAL" : 2,
+					"TEXCOORD_0" : 3
+					},
+					"indices" : 0,
+					"mode": 4,
+					"material" : 0
+					,"extensions": {
+					"KHR_draco_mesh_compression": {
+					"bufferView": 0,
+					"attributes" : {
+					"POSITION": 0,
+					"NORMAL" : 1,
+					"TEXCOORD_0" : 2
+					}
+					}
+					}
+				},
+				{
+					"attributes" : {
+					"POSITION" : 5,
+					"NORMAL" : 6,
+					"TEXCOORD_0" : 7
+					},
+					"indices" : 4,
+					"mode": 4,
+					"material" : 1
+					,"extensions": {
+					"KHR_draco_mesh_compression": {
+					"bufferView": 1,
+					"attributes" : {
+					"POSITION": 0,
+					"NORMAL" : 1,
+					"TEXCOORD_0" : 2
+					}
+					}
+					}
+				},
+				{
+					"attributes" : {
+					"POSITION" : 9,
+					"NORMAL" : 10,
+					"TEXCOORD_0" : 11
+					},
+					"indices" : 8,
+					"mode": 4,
+					"material" : 2
+					,"extensions": {
+					"KHR_draco_mesh_compression": {
+					"bufferView": 2,
+					"attributes" : {
+					"POSITION": 0,
+					"NORMAL" : 1,
+					"TEXCOORD_0" : 2
+					}
+					}
+					}
+				}
+			]
+		}
+	],
+	"accessors" : [
+			{
+				"componentType" : 5123
+				,"count" : 5286
+				,"type" : "SCALAR"
+			},
+			{
+				"componentType" : 5126
+				,"count" : 1022
+				,"type" : "VEC3"
+				,"min" : [-1.99999996e-02, 2.82070730e-02, -1.99999996e-02]
+				,"max" : [1.99999996e-02, 3.99999991e-02, 1.99999996e-02]
+			},
+			{
+				"componentType" : 5126
+				,"count" : 1022
+				,"type" : "VEC3"
+			},
+			{
+				"componentType" : 5126
+				,"count" : 1022
+				,"type" : "VEC2"
+			},
+			{
+				"componentType" : 5123
+				,"count" : 10944
+				,"type" : "SCALAR"
+			},
+			{
+				"componentType" : 5126
+				,"count" : 1824
+				,"type" : "VEC3"
+				,"min" : [-2.02322379e-02, -2.50000012e-04, -2.02500001e-02]
+				,"max" : [2.02500001e-02, 2.50000012e-04, 2.02455595e-02]
+			},
+			{
+				"componentType" : 5126
+				,"count" : 1824
+				,"type" : "VEC3"
+			},
+			{
+				"componentType" : 5126
+				,"count" : 1824
+				,"type" : "VEC2"
+			},
+			{
+				"componentType" : 5123
+				,"count" : 26532
+				,"type" : "SCALAR"
+			},
+			{
+				"componentType" : 5126
+				,"count" : 4616
+				,"type" : "VEC3"
+				,"min" : [-2.02500001e-02, 2.79659759e-02, -2.02492811e-02]
+				,"max" : [2.02500001e-02, 3.48910578e-02, 2.02492829e-02]
+			},
+			{
+				"componentType" : 5126
+				,"count" : 4616
+				,"type" : "VEC3"
+			},
+			{
+				"componentType" : 5126
+				,"count" : 4616
+				,"type" : "VEC2"
+			}
+	],
+	"materials": [
+			{
+				"pbrMetallicRoughness": {
+					"baseColorFactor": [
+						0.498039, 0.498039, 0.498039, 1
+					]
+					,"metallicFactor": 0
+					,"roughnessFactor": 1
+				}
+			},
+			{
+				"name": "color"
+				,"pbrMetallicRoughness": {
+					"baseColorFactor": [
+						0, 0, 1, 1
+					]
+					,"metallicFactor": 0
+					,"roughnessFactor": 0.17
+				}
+			},
+			{
+				"name": "color-1"
+				,"pbrMetallicRoughness": {
+					"baseColorFactor": [
+						1, 0.0313725, 0.0313725, 1
+					]
+					,"metallicFactor": 0
+					,"roughnessFactor": 0.17
+				}
+			}
+	],
+	"bufferViews" : [
+			{
+				"buffer": 0
+				,"byteOffset" : 0
+				,"byteLength" : 6560
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 6560
+				,"byteLength" : 7744
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 14304
+				,"byteLength" : 18512
+			}
+	],
+	"buffers" : [
+			{
+				"byteLength": 32816
+				,"uri" : "data.bin"
+			}
+	]
+}
